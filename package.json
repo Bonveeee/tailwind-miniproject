@@ -4,13 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tailwindcss -i ./input.css -o ./css/main.css",
-    "watch": "tailwindcss -i ./input.css -o ./css/main.css  --watch"
+    "build": "node script.js build",
+    "watch": "node script.js watch"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "tailwindcss": "^3.2.4"
+    "tailwindcss": "^2.2.19"
   }
 }

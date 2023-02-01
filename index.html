@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./css/main.css" />
     <title>Manage Landing Page</title>
   </head>
-  <body>
+   <body>
     <!-- Nav-Bar -->
     <nav class="relative container mx-auto p-6">
       <!-- flex-container -->
@@ -17,6 +17,7 @@
           <img src="images/logo.svg" alt="" />
         </div>
         <!-- Menu Items-->
+        <!-- the hidden class, makes the nav items disappear on medium screens -->
         <div class="hidden md:flex space-x-6">
           <a href="#" class="hover:text-darkGrayisBlue">Pricing</a>
           <a href="#" class="hover:text-darkGrayisBlue">Products</a>
@@ -134,3 +135,7 @@
     </section>
   </body>
 </html>
+
+<!-- 
+"build": "tailwindcss -i ./input.css -o ./css/main.css",
+    "watch": "tailwindcss -i ./input.css -o ./css/main.css  --watch" -->

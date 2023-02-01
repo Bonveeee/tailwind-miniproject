@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 module.exports = {
   content: ['./*.html'],
   theme: {
@@ -11,6 +12,7 @@ module.exports = {
 
     },
     extend: {
+      //customization
       colors: {
         brightRed: 'hsl(12, 88%, 59%)',
         brightRedLight: 'hsl(12, 88%, 69%)',
