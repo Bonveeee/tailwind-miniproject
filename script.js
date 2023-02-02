@@ -9,5 +9,3 @@ const args = [
 
 console.log(`Running command: ${command}`);
 console.log(`With arguments: ${args.join(" ")}`);
-
-
