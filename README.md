@@ -1,9 +1,9 @@
 ## Tailwind Landing Page
 
-This is a mini- project am learning about tailwind css guided through a Tailwind Crash Course on YouTube by Brad Traversy.
+This is a mini- project am learning about tailwind css.
 
-ultimate output
-![Alt text](/img/screen.png?raw=true)
+Final Outout
+![Alt text](/images/screen.png?raw=true)
 
 ## Installation
 To use this repo on your machine requires some simple steps
