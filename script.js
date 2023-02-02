@@ -1,11 +1,9 @@
-
 const command = process.argv[2] || "build";
 const args = [
   "tailwindcss",
-  "-i",
-  "./input.css",
-  "-o",
-  "./css/main.css",
+  command === "build" ? "build" : "watch",
+  "--output",
+  "public",
   ...(command === "watch" ? ["--watch"] : [])
 ];
 
