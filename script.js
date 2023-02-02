@@ -1,4 +1,3 @@
-
 const command = process.argv[2] || "build";
 const args = [
   "tailwindcss",
