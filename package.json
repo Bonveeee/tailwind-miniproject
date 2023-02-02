@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "node script.js  build --output public",
-    "watch": "node script.js watch",
-    "start": "node script.js start"
+    "build": "node script.js build",
+    "watch": "node script.js watch"
   },
   "keywords": [],
   "author": "",
