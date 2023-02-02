@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "[my-framework] build --output public",
+    "build": "node script.js  build --output public",
     "watch": "node script.js watch",
     "start": "node script.js start"
   },
