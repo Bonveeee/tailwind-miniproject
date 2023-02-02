@@ -72,3 +72,17 @@ body {
     transform: rotate(-45deg) translateY(6px) translate(-6px);
   }
   
+
+  /* #features{
+    @media (min-width: 480px) {
+      .flex {
+        width: 100%;
+      }
+    }
+    
+    @media (min-width: 768px) {
+      .flex {
+        width: 50%;
+      }
+  }
+} */
