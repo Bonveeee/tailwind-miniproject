@@ -2,7 +2,7 @@
 
 This is a mini- project am learning about tailwind css.
 
-Final Outout
+Final Output
 ![Alt text](/images/screen.png?raw=true)
 
 ## Installation
