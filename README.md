@@ -1,11 +1,31 @@
-# Tailwind Manage Landing Page
+## Tailwind Landing Page
 
-This is a project  am learning about tailwind css guided through a Tailwind Crash Course on YouTube by Brad Traversy.
+This is a mini- project am learning about tailwind css guided through a Tailwind Crash Course on YouTube by Brad Traversy.
 
 ultimate output
 ![Alt text](/img/screen.png?raw=true)
 
-# Usage
+## Installation
+To use this repo on your machine requires some simple steps
+- Open a terminal / command line interface on your computer
+- Clone the repo by using the following:
+
+        git clone git@github.com:Bonveeee/tailwind-miniproject.git
+
+- Be patient as it creates a copy on your local machine for you.
+- Change directory to the repo folder:
+
+        cd tailwind-miniproject
+
+- (Optional) Open it in ``Visual Studio Code``
+
+        code .
+- (Alternate Option) Open it in any editor of your choice. 
+
+
+# Usage & Requirements
+
+### Node Js v18.13.0+
 
 Install dependencies (Tailwind)
 
@@ -16,28 +36,29 @@ npm install
 Run the Tailwind CLI to compile the **input.css** during development. The output file is **css/main.css**
 
 ```
-npm run watch
+npx tailwindcss -i ./input.css -o ./css/main.css --watch 
+or
+node script.js watch
 ```
 
 To build once run...
 
 ```
-npm run build
+node script.js build,
+   
 ```
-
 You can edit the scripts in package.json and the tailwind.config.js file to change input/output locations
 
+## Technology Used
+
+* Tailwind Css
+* Javascript
+* HTML
 
 
-# :man_technologist: About Me :
+## Authors Info
 
-* 🌍  I'm based in Nairobi Kenya
-I am a Full Stack Developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> from Kenya.
-
-- :telescope: I’m working as a Software Engineer and contributing to frontend and backend for building web applications.
-
-- :seedling: Exploring DevSecOps.
-
-- :zap: In my free time, I solve problems on frontend mentor read tech articles.
-
-* ✉️  You can contact me at [bonochieng@gmail.com](mailto:bonochieng@gmail.com)
+Gmail - 
+        [My-Email](bonochieng@gmail.com)
+Twitter -
+        [Bonveeee](https://twitter.com/bonveeee)
