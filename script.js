@@ -3,7 +3,7 @@ const args = [
   "tailwindcss",
   command === "build" ? "build" : "watch",
   "--output",
-  " ./css/main.css",
+  "public",
   ...(command === "watch" ? ["--watch"] : [])
 ];
 
